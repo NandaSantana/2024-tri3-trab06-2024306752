@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  border: 0;
+}
+
+header {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: lightpink;
+  text-align: center;
+
+}
+
+aside {
+  min-width: 100px;
+  min-height: 100px;
+  background-color:lightpink;
+
+}
+
+aside>div {
+  position: sticky;
+  top: 0;
+}
+
+aside a {
+  display: block;
+  text-decoration: none;
+  padding: 1rem;
+  transition: .2s;
+}
+
+aside a:hover {
+  background-color: rgba(255, 129, 249, 0.15);
+}
+
+
+
+main {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: rgb(255, 223, 244);
+  padding: 1rem;
+
+  border-radius: 10%;
+  
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px; 
+    padding: 10px;
+}
+
+
+.galeria :first-child{
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.galeria img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+}
+
+
+footer {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: lightpink;
+  
+}
+
+dialog {
+  border-radius: 5%;
+  width: 20vw ;
+  height: 40vh;
+  background-image: url(https://stories.cnnbrasil.com.br/wp-content/uploads/sites/9/2024/02/michael-jackson-210aa5866c7d4dd58de8e3af57fe919a.jpg); /* Caminho da imagem */
+  background-size: cover; 
+  background-position: center; 
+  border: none; 
+  padding: 20px;
+}
+
+dialog h1 {
+  color: #f5169c;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+   
+  border-radius: 10px;
+  background-color: rgb(196, 255, 255);
+  text-decoration-color: aliceblue;
+
+}
+
+button text {
+  color: red;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
