@@ -2,7 +2,10 @@ document.getElementById('btn').addEventListener('click', function() {
     const input = document.getElementById('chatInput');
     const messageText = input.value.trim();
   
-
+    if (messageText === "") {
+      alert("Por favor, digite uma mensagem.");
+      return;
+    }
   
     const messageContainer = document.createElement('div');
     messageContainer.classList.add('message', 'owner'); 
