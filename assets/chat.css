@@ -57,7 +57,12 @@
     color: #ffffff;
   }
   
-  
+  .message .time {
+    margin-top: 0.5rem;
+    font-style: italic;
+    color: #ffffff;
+    text-align: right;
+  }
   
   .message:not(.owner) {
     align-self: flex-start; 
