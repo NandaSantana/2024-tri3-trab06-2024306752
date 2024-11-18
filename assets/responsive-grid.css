@@ -38,6 +38,23 @@ main .galeria > div {
   
 }
 
+.gallery-image-modal .bt-close {
+  --size: 3rem;
+  --translate: calc(var(--size) / 3 * -1);
+  height: var(--size);
+  width: var(--size);
+  border-radius: 50%;
+  color: transparent;
+  position: absolute;
+  right: var(--translate);
+  top: var(--translate);
+}
+
+.gallery-image-modal .bt-close::after {
+  content: "✕";
+  color: #000000;
+  font-size: calc(var(--size) / 2);
+}
 
 main .galeria > div img {
   width: 100%;
