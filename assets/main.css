@@ -102,15 +102,4 @@ dialog h1 {
   font-family: 'Times New Roman', Times, serif;
 }
 
-button {
-   
-  border-radius: 10px;
-  background-color: rgb(196, 255, 255);
-  text-decoration-color: aliceblue;
 
-}
-
-button text {
-  color: red;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
